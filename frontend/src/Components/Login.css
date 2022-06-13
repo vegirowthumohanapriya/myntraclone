@@ -1,0 +1,94 @@
+.login-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 9% 32% 10% 34%;
+  }
+  .login {
+    border: none;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+    height: 100%;
+    padding: 15% 5%;
+  }
+  p.login-logo {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #0E0E90;
+    padding-bottom: -9%;
+    position: relative;
+    bottom: 30px;
+  }
+  p.login-text {
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 33px;
+  }
+  form.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* bottom: 9px; */
+  }
+  input {
+    padding: 7px 78px;
+    margin: 1.7% 0;
+    border: 0.1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 1rem;
+  }
+  button.sign-in-button {
+    background: #4C57B6;
+    color: white;
+    text-align: center;
+    padding: 8px 143px;
+    margin: 7% 0;
+    border-radius: 7px;
+  }
+  a.sign-up-button {
+    color: blue;
+  }
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .register {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 35% 0 32%;
+    background: white;
+    border-radius: 10px;
+    padding: 4% 1%;
+  }
+  form.form-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .register {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 35% 0 32%;
+    background: white;
+    border-radius: 10px;
+  }
+  button.sign-up-button {
+    margin: 3%;
+    padding: 7px 142px;
+    background: #4C57B6;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+  }
